@@ -7,6 +7,10 @@
     --text-light: #64748b;
 }
 
+* {
+    box-sizing: border-box;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -99,7 +103,6 @@ img:hover {
     border: 5px solid rgb(43, 240, 25);
 }
 
-
 .flag.selected {
     border: 5px solid blue;
     border-radius: 12px;
@@ -113,6 +116,7 @@ img:hover {
 }
 
 .country.wrong {
+    box-sizing: border-box;
     background-color: red;
     color: white;
 }
@@ -307,5 +311,5 @@ img:hover {
         margin: 8px;
         width: 5.45rem;
         font-size: .7rem;
-    } 
+    }
 }
